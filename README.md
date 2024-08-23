@@ -57,7 +57,7 @@ Run `TorrServer-windows-amd64.exe`.
 Run in console
 
 ```bash
-curl -s https://raw.githubusercontent.com/YouROK/TorrServer/master/installTorrServerLinux.sh | sudo bash
+curl -s https://raw.githubusercontent.com/a1ex-ak/TorrServer/master/installTorrServerLinux.sh | sudo bash
 ```
 
 #### macOS
@@ -65,7 +65,7 @@ curl -s https://raw.githubusercontent.com/YouROK/TorrServer/master/installTorrSe
 Run in Terminal.app
 
 ```bash
-curl -s https://raw.githubusercontent.com/YouROK/TorrServer/master/installTorrServerMac.sh -o installTorrserverMac.sh && chmod 755 installTorrServerMac.sh && bash ./installTorrServerMac.sh
+curl -s https://raw.githubusercontent.com/a1ex-ak/TorrServer/master/installTorrServerMac.sh -o installTorrserverMac.sh && chmod 755 installTorrServerMac.sh && bash ./installTorrServerMac.sh
 ```
 
 Alternative install script for Intel Macs: <https://github.com/dancheskus/TorrServerMacInstaller>
