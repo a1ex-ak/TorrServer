@@ -228,7 +228,7 @@ function checkArch() {
 function checkInternet() {
   [ -z "`which ping`" ] && echo -e " Сначала установите iputils-ping" && exit 1
   [[ $lang == "en" ]] && echo -e " Check Internet access…" || echo -e " Проверяем соединение с Интернетом…"
-  if ! ping -c 2 google.com &> /dev/null; then
+  if ! ping -c 2 1.1.1.1 &> /dev/null; then
     [[ $lang == "en" ]] && echo -e " - No Internet. Check your network and DNS settings." || echo -e " - Нет Интернета. Проверьте ваше соединение, а также разрешение имен DNS."
     exit 1
   fi
